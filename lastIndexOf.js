@@ -1,5 +1,5 @@
 function lastIndexOf (numArray, numSearch) {
-  lastSeenAt = -1;
+  let lastSeenAt = -1;
   for (let i = 0; i < numArray.length; i++) {
     if (numArray[i] === numSearch) {
       lastSeenAt = i;
